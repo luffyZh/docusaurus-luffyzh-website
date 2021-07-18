@@ -5,7 +5,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: '前端周同学\'s Blog',
   tagline: '📖 公众号: 前端周同学',
-  url: 'https://github.com/luffyZh',
+  url: 'https://github.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -27,9 +27,9 @@ module.exports = {
           label: '文档',
         },
         {
+          position: 'left',
           to: '/blog',
           label: '博客',
-          position: 'left'
         },
         {
           href: 'https://github.com/luffyZh/docusaurus-luffyzh-website',
