@@ -9,7 +9,7 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   url: 'https://luffyzh.github.io',
-  baseUrl: '/docusaurus-luffyzh-website/',
+  baseUrl: '/',
   organizationName: 'luffyZh', // Usually your GitHub org/user name.
   projectName: 'docusaurus-luffyzh-website', // Usually your repo name.
   themeConfig: {
