@@ -9,14 +9,14 @@ module.exports = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
   url: 'https://luffyzh.github.io',
-  baseUrl: '/docusaurus-luffyzh-website/',
+  baseUrl: '/',
   organizationName: 'luffyZh', // Usually your GitHub org/user name.
   projectName: 'docusaurus-luffyzh-website', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '前端周同学',
       logo: {
-        alt: 'My Site Logo',
+        alt: 'website logo',
         src: 'img/logo.svg',
       },
       items: [
