@@ -5,11 +5,11 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 module.exports = {
   title: '前端周同学\'s Blog',
   tagline: '📖 公众号: 前端周同学',
-  url: 'https://github.com',
-  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
+  url: 'https://luffyzh.github.io',
+  baseUrl: '/docusaurus-luffyzh-website/',
   organizationName: 'luffyZh', // Usually your GitHub org/user name.
   projectName: 'docusaurus-luffyzh-website', // Usually your repo name.
   themeConfig: {
