@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/"
+                       xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+  <ShortName>前端周同学&#39;s Blog</ShortName>
+  <Description>Search 前端周同学&#39;s Blog</Description>
+  <InputEncoding>UTF-8</InputEncoding>
+  <Image width="16" height="16" type="image/x-icon">https://luffyzh.github.io/docusaurus-luffyzh-website/img/favicon.ico</Image>
+  <Url type="text/html" method="get" template="https://luffyzh.github.io/docusaurus-luffyzh-website/search?q={searchTerms}"/>
+  <Url type="application/opensearchdescription+xml" rel="self" template="https://luffyzh.github.io/docusaurus-luffyzh-website/opensearch.xml" />
+  <moz:SearchForm>https://luffyzh.github.io/docusaurus-luffyzh-website/</moz:SearchForm>
+</OpenSearchDescription>
