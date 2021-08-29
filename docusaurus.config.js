@@ -13,6 +13,10 @@ module.exports = {
   organizationName: 'luffyZh', // Usually your GitHub org/user name.
   projectName: 'docusaurus-luffyzh-website', // Usually your repo name.
   themeConfig: {
+    algolia: {
+      apiKey: '25626fae796133dc1e734c6bcaaeac3c',
+      indexName: 'docsearch',
+    },
     navbar: {
       title: '前端周同学',
       logo: {
@@ -34,6 +38,10 @@ module.exports = {
         {
           href: 'https://github.com/luffyZh/docusaurus-luffyzh-website',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          type: 'localeDropdown',
           position: 'right',
         },
       ],
@@ -102,4 +110,8 @@ module.exports = {
       },
     ],
   ],
+  // i18n: {
+  //   defaultLocale: 'zh-cn',
+  //   locales: ['en', 'zh-cn'],
+  // },
 };
